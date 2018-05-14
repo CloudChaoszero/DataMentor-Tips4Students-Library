@@ -1,0 +1,22 @@
+Kill Flask App Python
+
+MAC Users:
+
+`sudo lsof -i:5000`
+
+^^ to check the ID of running processes. 
+
+You can then run `kill [PID]` to stop the process.
+
+
+PC Users:
+
+
+`netstat -ano | findstr :5000`
+
+
+
+the PID will the last item in the row
+
+
+`taskkill /PID typeyourPIDhere /F`
