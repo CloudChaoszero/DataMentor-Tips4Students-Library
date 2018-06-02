@@ -1,0 +1,14 @@
+If the *JSON Viewer chrome extension* is not working for your geoJSON data, then you can try two things:
+
+
+
+
+1. change the settings of `maxSize` to something larger than the defaulted value. Your size of dat amay be too large.
+
+
+2. Close and reopen Google Chrome
+
+
+
+Source:
+https://github.com/tulios/json-viewer/issues/60
