@@ -12,3 +12,7 @@ If the *JSON Viewer chrome extension* is not working for your geoJSON data, then
 
 Source:
 https://github.com/tulios/json-viewer/issues/60
+
+
+Chrome Extension:
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US
