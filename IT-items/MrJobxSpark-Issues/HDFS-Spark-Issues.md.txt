@@ -1,0 +1,32 @@
+# MRJob and Spark Related Issues
+
+## MRJob
+
+
+### Issue 1
+
+
+Running MRJob 0.6.3 in a python 3.6.x installation will produce the following error (similar to my local Windows machine):
+
+```
+Removing temp directory C:\temp\app.{UserName}.20180707.222938.021378...
+[WinError 5] Access is denied: 'C:\\temp\\app.{UserName}.20180707.222938.021378\\step\\000\\cache\\app.py'
+Traceback (most recent call last):
+...
+PermissionError: [WinError 5] Access is denied: 'C:\\temp\\app.{UserName}.20180707.222938.021378\\step\\000\\cache\\app.py'
+```
+
+
+### Resolution 1
+
+`pip install mrjob==0.5.10`
+
+By going through and installing the MRJob version 0.5.10, latest in [documentation here](https://pythonhosted.org/mrjob/), I got my application to work.
+
+## PySpark
+
+
+### Issue 1
+
+
+### Resolution 1
