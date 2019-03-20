@@ -1,6 +1,7 @@
 #!/bin/sh
 sudo apt get-install
 sudo apt-get install bzip2 git libxml2-dev
+sudo apt-get install zip unzip 
 
 wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 bash Anaconda3-5.0.1-Linux-x86_64.sh
@@ -16,3 +17,11 @@ conda update jupyter
 pip install kaggle --upgrade
 
 jupyter notebook --generate-config
+
+#c = get_config()
+#c.NotebookApp.ip = '0.0.0.0'
+#c.NotebookApp.open_browser = False
+#c.NotebookApp.port = 5000
+
+###Type in:
+##jupyter-notebook --no-browser --ip=0.0.0.0 --port=5000
