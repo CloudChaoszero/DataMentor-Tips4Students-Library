@@ -9,7 +9,7 @@
 
 ## Instructions
 
-Most instructions to form a compute engine with Jupyter Notebook can be found [from this article by Amulya Aankul](gcloud compute --project "personal-machine-230918" ssh --zone "us-west1-b" "general-analytics-stack2"). 
+Most instructions to form a compute engine with Jupyter Notebook can be found [from this article by Amulya Aankul](https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52). 
 
 Other imports lil Git, Kaggle SDK, and other items are added on top of the mentioned article
 
