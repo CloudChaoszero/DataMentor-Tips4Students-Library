@@ -1,6 +1,6 @@
 # Soft Skill Tips
 
-[Good Talk](https://media1.tenor.com/images/a5df5ed42f74a32256acd0929bd44d02/tenor.gif)
+![Good Talk](https://media1.tenor.com/images/a5df5ed42f74a32256acd0929bd44d02/tenor.gif)
 
 ## Presentation Tips
 
